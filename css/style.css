@@ -33,20 +33,31 @@ h5{
 .cardd{
     background-color: #353131;
     padding: 10px;
-    margin: 10px 30px;
+    margin: 10px 0;
     border-radius: 5px;
 }
 .elements{
-    height: 92vh;
+    height: 100vh;
     color: white;
     background-color: #282626;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px 0;
 }
 .elements1{
     background-color: #353131;
+    height: 100vh;
+    color: white;
+    padding: 50px 0 50px 30px;
 }
 .elements2{
     background-color: #282626;
+}
+.elements1 h3{
+    margin-bottom: 30px;
+}
+.elements1 h4{
+    margin: 10px;
+    margin-top: 40px;
 }
