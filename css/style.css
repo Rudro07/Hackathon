@@ -1,8 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h4{
+    font-size: 1.2rem;
+}
 h5{
     color: gray;
-}.navbar__container{
+    font-size: 1rem;
+}
+.navbar__container{
     background-color: #353131;
-    padding: 10px;
+    padding: 20px 10px;
 }
 .navbar__image{
     width: 200px;
@@ -32,24 +42,44 @@ h5{
 }
 .cardd{
     background-color: #353131;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 15px;
+    margin: 15px 20px;
     border-radius: 5px;
 }
 .elements{
-    height: 100vh;
+    height: 120vh;
     color: white;
     background-color: #282626;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: initial;
     padding: 50px 0;
+    position: relative;
+}
+.dot{
+  height: 15px;
+  width: 15px;
+  background-color: #5771e5;
+  border-radius: 50%;
+  position: absolute;
+  left: 15px;
+  top: 63px;
+}
+.elements3 .dot{
+    background-color: #2442c4;
+}
+.elements4 .dot{
+    background-color: #0d30cb;
+}
+.elements h3{
+    margin-left: 40px;
 }
 .elements1{
     background-color: #353131;
-    height: 100vh;
+    height: 120vh;
     color: white;
-    padding: 50px 0 50px 30px;
+    padding: 50px 0 50px 20px;
+    position: relative;
 }
 .elements2{
     background-color: #282626;
@@ -60,4 +90,20 @@ h5{
 .elements1 h4{
     margin: 10px;
     margin-top: 40px;
+}
+.elements1 .colored__h4{
+    width: 50%;
+    background-color: #6630FF;
+    padding: 10px 0;
+    /* margin: 10px; */
+    border-radius: 20px;
+}
+.elements1 h4 span .bx{
+    padding-left: 20px;
+}
+.elements1 footer{
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 10px;
+    
 }
