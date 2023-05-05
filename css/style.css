@@ -1,0 +1,52 @@
+h5{
+    color: gray;
+}.navbar__container{
+    background-color: #353131;
+    padding: 10px;
+}
+.navbar__image{
+    width: 200px;
+}
+.navbar__container{
+    display: grid;
+    grid-template-columns: auto auto 100px;
+}
+.navbar__text{
+    color: white;
+}
+.navbar__button{
+    background-color: #6630FF;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+.containerr{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: center;
+}
+.cardd{
+    background-color: #353131;
+    padding: 10px;
+    margin: 10px 30px;
+    border-radius: 5px;
+}
+.elements{
+    height: 92vh;
+    color: white;
+    background-color: #282626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.elements1{
+    background-color: #353131;
+}
+.elements2{
+    background-color: #282626;
+}
